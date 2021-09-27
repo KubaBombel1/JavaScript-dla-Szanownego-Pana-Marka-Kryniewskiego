@@ -1,0 +1,45 @@
+<html>
+<body>
+
+<div style="color:green;font-size:60px;">
+
+
+ <script language="JavaScript">
+ 
+ 
+var dzien_1 = prompt ("dzien_1=","");
+
+
+var godzina_1 = prompt ("godzina_1=","");
+
+
+var dzien_2 = prompt("dzien_2=","");
+
+
+var godzina_2 = prompt ("godzina_2=","");
+
+var suma;
+
+ var D1_SUR = parseFloat (dzien_1);
+ 
+ var G1_SUR = parseFloat (godzina_1);
+ 
+ var D2_SUR = parseFloat (dzien_2);
+ 
+ var G2_SUR = parseFloat (godzina_2);
+ 
+ suma = (D1_SUR*24*60*60+G1_SUR*60*60)-(D2_SUR*24*60*60+G2_SUR*60*60);
+ 
+ 
+ document.write ("D1:"+D1_SUR+"<br>G1:"+G1_SUR+"<br> D2: "+D2_SUR+"<br>G2:"+G2_SUR+"<br> Ilość sekund: "+suma+" sekund<br>");
+ 
+ 
+ </script>
+ 
+ 
+</div>
+
+
+</body>
+
+</html>
