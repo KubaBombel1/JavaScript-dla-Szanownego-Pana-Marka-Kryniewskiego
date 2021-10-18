@@ -1,0 +1,26 @@
+<html>
+  
+   <head>
+      
+       <title>Zadanie 11</title>
+       
+   </head>
+   
+   <body>
+     
+      <div style="color:green;font-size:60px;">
+        
+         <script type="text/javascript">
+             
+            let m_SUR = parseInt(prompt("Liczba: "));
+			
+            
+    document.write("liczba: " + m_SUR + "</br>" + "1/" + m_SUR + "= 1/" +  (parseInt(m_SUR)+1) + " + 1/" + (parseInt(m_SUR)*(parseInt(m_SUR)+1)) +"</br>" +"1/" + (parseInt(m_SUR)+1) + "= 1/" +  (parseInt(m_SUR)+1+1) + " + 1/" + ((parseInt(m_SUR)+1)*(parseInt(m_SUR)+2)) +"</br>" +"= 1/" +  (parseInt(m_SUR)+1+1) + " + 1/" + ((parseInt(m_SUR)+1)*(parseInt(m_SUR)+2)) + " + 1/" + (parseInt(m_SUR)*(parseInt(m_SUR)+1)));
+            
+         </script>
+        
+      </div>
+     
+   </body>
+  
+</html> 
