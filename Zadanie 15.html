@@ -1,0 +1,55 @@
+<html>
+  
+   <head>
+      
+       <title>Zadanie 15</title>
+       
+   </head>
+   
+    <body>
+       
+        <div style="color:green;font-size:60px;">
+
+         <script language="JavaScript">
+
+                 var l1_SUR=prompt(" x1","1");
+				 
+			 
+     var l2_SUR=prompt(" x2","2");
+				 
+
+    var x1_SUR=parseFloat(l1_SUR);
+				 
+				 
+                 var x2_SUR=parseFloat(l2_SUR);
+
+       var K_SUR= 3 * Math.pow ( x1_SUR, ( 6 / 8 ));
+
+       
+
+	   var K1_SUR=( 2 * Math.cos ( x1_SUR * Math.PI / 180 )) + ( 2 * Math.sin ( x1_SUR*Math.PI / 180 ));
+
+                 var K3_SUR= Math.cbrt ( Math.pow ( x1_SUR, 5 ) + ( 2 * Math.pow ( x2_SUR, 4 ))) * Math.abs ( x1_SUR - x2_SUR );
+             
+
+        document.write("x1 = "+x1_SUR);
+		
+    document.write("  |  x2 = "+x2_SUR);
+		
+		
+  document.write("<br><br> K = "+y_SUR);
+		
+		
+    document.write("<br>  K1 = "+K1_SUR);
+		
+		
+        document.write("<br>  K3 = "+K3_SUR);
+
+         </script>
+         
+        </div>
+        
+    </body>
+    
+</html>
+        
