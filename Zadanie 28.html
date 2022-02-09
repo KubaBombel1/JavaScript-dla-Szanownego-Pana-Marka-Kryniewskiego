@@ -1,0 +1,28 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function wierzowiec_Surowiec(nazwa_Surowiec,wysokosc_Surowiec,miejsce_Surowiec)//początek konstruktora
+{
+this.nazwa=nazwa_Surowiec;
+this.wysokosc=wysokosc_Surowiec;
+this.miejsce=miejsce_Surowiec;
+}//koniec konstruktora
+ wierzowiec_Surowiec.prototype.wypisz = function () //definicja metody
+ {
+ alert(this.nazwa + ' ' + this.wysokosc+ ' ' + this.miejsce);
+ };
+var wierzowiec1 = new wierzowiec_Surowiec("Wysoki", "Drapacz", "Siekierkowo"); // nowy obiekt osoba1
+var wierzowiec2 = new wierzowiec_Surowiec('Sredni', 'Drapaczer', 'Masaczjusets');
+wierzowiec1.wypisz(); // uruchomienie metody wypisz() dotyczącej osoby 1
+wierzowiec2.wypisz();
+ document.write("dostęp do właściwości wierzowca"+"<br>");
+// poniżej dostęp do pól osoby1
+ document.write("wierzowiec1"+" "+wierzowiec1.wysokosc+" "+wierzowiec1.nazwa+" "+wierzowiec1.miejsce);
+ document.write("wierzowiec2"+" "+wierzowiec2.wysokosc+" "+wierzowiec2.nazwa+" "+wierzowiec2.miejsce);
+ </script>
+ </head>
+<body>
+<br>
+ programowanie obiektowe 
+</body>
+</html>
