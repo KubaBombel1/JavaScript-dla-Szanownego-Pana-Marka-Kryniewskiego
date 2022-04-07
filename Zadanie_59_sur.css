@@ -1,0 +1,25 @@
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+.tekst{
+	color:red;
+	font-size:2cm;
+}
+/*text-decoration: none; - Jest to tekst który nie ma żadego rodzaju dodatków
+ text-decoration: underline; Jest to tekst z podkreśleniem
+ Kuba Surowiec*/

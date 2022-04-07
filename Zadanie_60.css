@@ -1,0 +1,49 @@
+
+#Blok_1Surowiec,
+
+#Blok_2Surowiec,
+
+#Blok_3Surowiec
+
+{
+
+	
+	
+	background:green;
+	
+	width:622px;
+	
+	
+	
+	
+}
+
+#Blok_1Surowiec:hover {background:red; font-size:24mm;}
+
+#Blok_2Surowiec:hover {background:orange; font-size:24mm;}
+
+#Blok_3Surowiec:hover {background:yellow; font-size:24mm;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hover jest to pseudo klasa używa się jej kiedy użytkownik wchodzi w interakcję z elementem za pomocą myszki ale jej nie aktywuje
+Kuba Suorwiec */
