@@ -1,0 +1,64 @@
+ <html>
+
+ <head>
+
+   
+    <script language="JavaScript">
+	
+         function Surowiec_start()
+		 
+		 {
+        start_Sur = new Date();
+		
+		
+ poczatek_Sur=start_Sur.getTime();
+ 
+ 
+  }
+      function Surowiec_stop()
+ 
+ {
+ stop_Sur = new Date();
+ 
+ 
+ koniec_Sur = stop_Sur.getTime()
+
+ roznica_Sur = koniec_Sur - poczatek_Sur;
+ 
+ show1.innerHTML = roznica_Sur / 1000 + "s";
+ 
+} 
+      </script>
+
+         </head>
+
+            <body>
+			
+    <script>
+	
+	
+            dzis_Sur = new Date();
+			
+			
+            document.write("<br>Aktualny czas : ",dzis_Sur.getHours(),":",dzis_Sur.getMinutes());
+			
+			
+    </script>
+	
+    <br>
+	
+    <input type="button" name="StartButton" value="START stoper" onclick="Surowiec_start()">
+	
+    <input type="button" name="StopButton" value="STOP stoper" onclick="Surowiec_stop()">
+	
+    <table border=5>
+	
+         <tr id="show1"></tr>
+		 
+		 
+       </table>
+	   
+</body>
+
+
+</html>

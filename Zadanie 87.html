@@ -1,0 +1,73 @@
+<html>
+
+<head>
+
+    
+    <script language="JavaScript">
+	
+	
+ function K4_Surowiec() 
+ 
+ 
+      {
+	  
+        show4.innerHTML="Ostatnio zmodyfikowany : "+document.lastModified;
+		
+       } 
+	   
+         function  K2_Surowiec()
+		 
+        {
+		
+        data_Sur = new Date();
+
+
+        show2.innerHTML="Data: "+data_Sur.getDate()+"-"+data_Sur.getMonth()+"-"+data_Sur.getFullYear();
+          
+		  }
+
+
+  function K3_Surowiec()
+  
+{ 
+
+      czas_Sur = new Date();
+	  
+ show3.innerHTML="Aktualny czas "+czas_Sur.getHours()+":"+czas_Sur.getMinutes();
+ 
+ 
+}
+
+ </script>
+
+ </head>
+
+ <body>
+
+ <form>
+ 
+     <a onclick="K4_Surowiec(' ')"><img src="K4.png" alt="K4" border="0" /> </a>
+	 
+	 
+   <a onclick="K2_Surowiec(' ')"><img src="K2.png" alt="K2" border="0" /> </a>
+   
+   <a onclick="K3_Surowiec(' ')"><img src="K3.png" alt="K3" border="0" /> </a>
+   
+  </form>
+ 
+   <table>
+   
+      <tr id="show4"> </tr>
+
+       <tr id="show2"> </tr>
+
+
+       <tr id="show3"> </tr>
+
+
+        </table>
+
+ 
+  </body>
+  
+   </html>
